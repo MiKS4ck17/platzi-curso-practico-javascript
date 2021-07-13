@@ -1,0 +1,58 @@
+body
+{
+    color: #696969;
+    text-align: center;
+    font-family: Arial;
+}
+h1
+{
+    color:#2F4F4F;
+}
+#botones
+{
+    width: 50%;
+    padding: 1em;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+#formulario
+{
+    width: 50%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+#ResultP
+{
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+#titulo
+{
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+#redes
+{
+    font-family: Courier;
+    width: 50%;
+    padding: 1em;
+    text-align: right;
+    margin: 0 auto;
+}
+
+#limpieza
+{
+    width: 50%;
+    padding: 1em;
+    text-align: right;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}

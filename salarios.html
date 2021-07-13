@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Salarios</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Salarios</h1>
+        <h2>Añadir los datos para realizar los calculos</h2>
+    </div>
+    <!-- Probando hacer el frontend -->
+    <section>
+        <form>
+            <div id="formulario">
+                <div>
+                    <label for="InputNombre">Escribe el nombre de la persona</label>
+                    <input id="InputNombre" type="text"/> 
+                </div>
+                
+                <div>
+                    <label for="InputSalario">Escribe el salario de la persona</label>
+                    <input id="InputSalario" type="number"/> 
+                </div>
+            </div>
+                
+            
+            <div id="botones">
+                <button type="button" onclick="onClickButtonAddPersona()">Añadir persona</button>
+                <button type="button" onclick="onClickButtonMean()">Promedio</button>
+                <button type="button" onclick="onClickButtonMedian()">Mediana</button>
+                <button type="button" onclick="onClickButtonTax()">Impuestos obtenidos</button>
+                <button type="button" onclick="onClickButtonStdDeviation()">Desviación estandar</button>
+            </div>
+            
+            <p id="ResultP"></p>
+            <div id="limpieza">
+                <button type="button" onclick="onClickButtonBorrar()">Limpiar todos los datos</button>
+                <button type="button" onclick="onClickButtonBorrarUltimo()">Limpiar ultimo dato</button>
+            </div>
+        </form>
+    </section>
+    <p id="redes">@MiKS4ck17</p>
+    <script src="analisis.js"></script>
+</body>
+</html>
